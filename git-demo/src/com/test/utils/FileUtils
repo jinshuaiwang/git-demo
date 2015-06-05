@@ -1,0 +1,11 @@
+public class FileUtils {
+  private FileUtils() {
+  }
+  
+  public static int getFileSize(File file) {
+    if (null == file) {
+      return 0;
+    }
+    return file.length();
+  }
+}
